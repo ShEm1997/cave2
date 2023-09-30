@@ -1,0 +1,59 @@
+div.bestselling{
+    width: 100%;
+    height: 430px;
+    text-align: center;
+    padding-top: 13px;
+}
+div.bestselling2{
+    width: 97%;
+    height: 404px;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+div.bestselling2>div.top{
+    width: 100%;
+    height: 74px;
+    font-size: 20px;
+    line-height: 74px
+}
+div.bestselling2>div.top>i{
+    font-size: 28px;
+    vertical-align: middle;
+    margin: 0 0 0 4px;
+    color: gold;
+}
+div.bestselling2>div.middle{
+    width: 100%;
+    height: calc(404px - 74px);
+    position: relative;
+    padding: 0 !important;
+}
+div.middle>div.zero{
+    display: inline-block;
+    width: 320px;
+    height: 104px;
+    margin: 0 1px 0 1px;
+    vertical-align: middle;
+    position: relative;
+}
+div.middle>div.zero>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+div.middle>div.zero>a>img{
+    display: inline-block;
+    height: 100px;
+    margin-top: 2px;
+    position: absolute;
+    right: 0;
+}
+div.door{
+    width: calc(320px - 100px);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 30px;
+}

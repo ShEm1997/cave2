@@ -1,0 +1,22 @@
+div.ax{
+    width: 100%;
+    height: 172px;
+    text-align: center;
+}
+div.ax2{
+    display: inline-block;
+    width: 97%;
+    height: 166px;
+    margin-top: 3px;
+    border-radius: 15px;
+}
+div.ax2>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div.ax2>a>img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}

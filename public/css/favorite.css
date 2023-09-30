@@ -1,0 +1,46 @@
+div.favorite{
+    width: 100%;
+    height: 270px;
+    box-sizing: border-box;
+    padding: 8px 0 0 0;
+    text-align: center;
+    margin-top: 10px;
+    font-family: text;
+}
+div.mybrands{
+    width: 97%;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+}
+div.mybrands>div.brands{
+    width: 50%;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+div.star{
+    display: inline-block;
+    line-height: 80px;
+    color: gold;
+    font-size: 30px;
+}
+div.mahboob{
+    display: inline-block;
+    line-height: 80px;
+}
+div.favoritecenter{
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+}
+div.fav{
+    text-align: center;
+    height: inherit;
+    
+}
+div.fav>img{
+    display: inline-block;
+    scale: 50%;
+}

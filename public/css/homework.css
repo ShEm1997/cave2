@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.sh{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    text-align: center;
+    margin: 200px auto;
+
+}
+div.sh>img{
+    width: 490px;
+    height: 490px;
+}
+div.em{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+}

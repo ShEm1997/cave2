@@ -1,0 +1,52 @@
+div.khandani{
+    width: 100%;
+    height: 390px;
+    text-align: center;
+}
+div.khandani2{
+    width: 97%;
+    height: 370px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+div.khandanitop{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+}
+div.khandanibottom{
+    width: 100%;
+    height: 310px;
+    display: inline-block;
+}
+div.khandanibottom2{
+    width: 323px;
+    height: 280px;
+    display: inline-block;
+    margin: 15px 2px 0 2px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+div.khandanibottom2>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    position: relative;
+}
+div.khandanibottom2>a>img{
+    width: 100%;
+}
+div.khandanibottom2>a>div{
+    width: 100%;
+    height: 98px;
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    padding-top: 28px;
+}

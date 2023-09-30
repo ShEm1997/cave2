@@ -1,0 +1,21 @@
+div.jabe{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+div.jabe>div{
+    display: inline-block;
+    width: 645px;
+    height: 258px;
+    margin: 30px 8px 0 8px;
+}
+div.jabe>div>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+div.jabe>div>a>img{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+}

@@ -1,0 +1,105 @@
+div.supermarket{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-family: text;
+}
+div.supermarket>div.market{
+    width: 97%;
+    height: 110px;
+    background-color: #edf1ee;
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+div.supermarket>div.market>div.bazar{
+    width: 500px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+div.supermarket>div.market>div.hyper{
+    width: 680px;
+    height: 96px;
+    display: inline-block;
+    margin: 7px 70px 0 10px;
+}
+div.supermarket>div.market>div.bazar>div.bazarfresh{
+    height: inherit;
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+div.supermarket>div.market>div.bazar>div.bazarfresher{
+    height: inherit;
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+div.supermarket>div.market>div.bazar>div.bazarfreshest{
+    height: inherit;
+    width: 120px;
+    display: inline-block;
+}
+div.supermarket>div.market>div.bazar>div.bazarfresh>a>img{
+    margin-top: 10px;
+}
+div.supermarket>div.market>div.bazar>div.bazarfresher>a>svg{
+    margin-top: 26px;
+}
+div.supermarket>div.market>div.bazar>div.bazarfreshest>a>div.takhfif{
+    width: 110px;
+    height: 28px;
+    border-radius: 30px;
+    background-color: #39ae00;
+    display: inline-block;
+    margin-top: 26px;
+    color: white;
+    padding-top: 3px;
+}
+div.supermarket>div.market>div.hyper>a{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 50%;}
+div.supermarket>div.market>div.hyper>a>div.hyperimage{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 10px;
+    vertical-align: top;
+}
+div.supermarket>div.market>div.hyper>a>div.hyperimage>img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+div.supermarket>div.market>div.hyper>a>div.hyperimageborder{
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 23px;
+    line-height: 50px;
+}
+div.supermarket>div.market>div.hyper>a>div.hyperimageborder>span{
+    color: #39ae00;
+    font-size: 13px;
+}
+div.supermarket>div.market>div.hyper>a>div.hyperimageborder>i{
+    color: #39ae00;
+}
+div.supermarket>div.market>div.hyper>a.gh{
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: top;
+}

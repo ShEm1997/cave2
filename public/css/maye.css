@@ -1,0 +1,15 @@
+div.maye{
+    width: 100%;
+    height: 280px;
+    text-align: center;
+}
+div.maye>a{
+    display: inline-block;
+    width: 645px;
+    border-radius: 15px;
+    margin: 10px 6px 0 6px;
+}
+div.maye>a>img{
+    width: 645px;
+    border-radius: inherit;
+}

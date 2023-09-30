@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: text;
+    src: url('../fonts/Persian/IRANYekanWeb.eot');
+    src: url('../fonts/Persian/IRANYekanWeb.ttf');
+    src: url('../fonts/Persian/IRANYekanWeb.woff');
+    src: url('../fonts/Persian/IRANYekanWeb.woff2');
+}
+:root{
+    --width:100%;
+}
+div.wrapper{
+    width: 100%;
+    direction: rtl;
+}

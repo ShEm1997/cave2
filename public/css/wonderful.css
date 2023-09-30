@@ -1,0 +1,68 @@
+div.wonderful{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+div.wonderful>div.items{
+    width: 97%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 180px 20px 2px;
+    box-sizing: border-box;
+    background-color: #ef3a4f;
+    border-radius: 20px;
+    font-family: text;
+    font-size: 16px;
+}
+div.wonderful>div.items div.image{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.wonderful>div.items div.image>a>img{
+    width: 90%;
+    display: inline-block;
+
+}
+.changeflex{
+    flex-flow: column wrap;
+}
+div.wonderful>div.items div.price{
+    width: 100%;
+}
+div.wonderful>div.items div.price>div.left , div.wonderful>div.items div.price>div.right{
+    display: inline-block;
+}
+div.wonderful>div.items div.price>div.left{
+    text-align: left;
+    margin-left: 3px;
+    height: inherit;
+    
+}
+div.wonderful>div.items div.price>div.right{
+    background-color: crimson;
+    color: white;
+    border-radius: 20px;
+    padding: 3px;
+}
+div.wonderful>div.items div.off{
+    margin-top:10px ;
+    display: inline-block;
+    color: lightgrey;
+    text-decoration: line-through;
+}
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    font-size: 20px !important;
+    color: black !important;
+    font-weight: bold !important;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    font-size: 20px !important;
+    width: 35px !important;
+    height: 35px !important;
+    background-color: white !important;
+    line-height: 35px !important;
+    border-radius: 50% !important;
+    border: 1px solid lightgrey !important;
+    text-align: center !important;
+  }

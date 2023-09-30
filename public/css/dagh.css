@@ -1,0 +1,53 @@
+div.dagh{
+    width: 100%;
+    height: 410px;
+    text-align: center;
+}
+div.dagh2{
+    display: inline-block;
+    width: 97%;
+    height: 400px;
+    margin-top: 5px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+div.daghtop{
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    line-height: 80px;
+}
+div.daghtop>i{
+    margin-left: 5px;
+    font-size: 25px;
+    color: gold;
+}
+div.daghbottom{
+    width: 100%;
+    height: 320px;
+}
+div.daghbottom>div{
+    display: inline-block;
+    width: 320px;
+    height: 100px;
+    position: relative;
+    margin: 0 2px 0 2px;
+}
+div.daghbottom>div>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+div.daghbottom>div>a>img{
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+div.dagho{
+    width: calc(320px - 100px);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    padding-top: 25px;
+}

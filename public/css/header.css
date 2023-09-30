@@ -1,0 +1,915 @@
+header{
+    width: 100%;
+    height: 170px;
+}
+header>div.headerTop{
+    width: inherit;
+    height: 60px;
+}
+header>div.headerTop>img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+header>div.headerBottom{
+    width: 100%;
+    height: 110px;
+    box-shadow: 0 1px 1px black;
+}
+header>div.headerBottom>div.bTop{
+    width: inherit;
+    height: 70px;
+}
+header>div.headerBottom>div.bBottom{
+    width: inherit;
+    height: 40px;
+}
+header>div.headerBottom>div.bTop>div.logo{
+    width: 10%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+header>div.headerBottom>div.bTop>div.logo>svg{
+    width: 100%;
+    margin-top: 20px;
+}
+header>div.headerBottom>div.bTop>div.logo>svg g{
+    fill: crimson;
+}
+header>div.headerBottom>div.bTop>div.search{
+    width: 72%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+header>div.headerBottom>div.bTop>div.search>i{
+    position: absolute;
+    left: 97%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+header>div.headerBottom>div.bTop>div.search>input[type=search]{
+    width: 60%;
+    height: 45px;
+    background-color: #F1F2F4;
+    border: unset;
+    margin-top: 13px;
+    border-radius: 10px;
+    padding-right: 15px;
+    font-family: text;
+    transition: 300ms;
+    color: darkmagenta;
+    padding-right: 50px; 
+}
+header>div.headerBottom>div.bTop>div.search>input[type=search]:focus{
+    outline: unset;
+    background-color: wheat;
+    
+}
+header>div.headerBottom>div.bTop>div.search>input[type=search]::placeholder{
+    font-size: 11px; 
+    padding-right: 15px; 
+}
+header>div.headerBottom>div.bTop>div.search>input[type=search]:focus::placeholder{
+    color: darkmagenta;
+}
+header>div.headerBottom>div.bTop>div.login{
+    width: 13%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -10px;
+}
+header>div.headerBottom>div.bTop>div.login>a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: text;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    border: 1px solid lightgrey;
+    word-spacing: 1px;
+    border-radius: 10px;
+}
+header>div.headerBottom>div.bTop>div.login>a>span{
+    word-spacing: unset !important;
+}
+header>div.headerBottom>div.bTop>div.login>a>i{
+    font-size: 20px;
+    line-height: 40px;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: black;
+    transform: rotate(180deg);
+}
+div.shoppingcart{
+    display: inline-block;
+    width: 5%;
+    height: inherit;
+    text-align: left;
+    line-height: 70px;
+}
+div.shoppingcart>a{
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    color: black;
+}
+div.shoppingcart2{
+    height: 40px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    padding-top: 15px;
+}
+header>div.headerBottom>div.bBottom{
+    width: 100%;
+    height: 40px;
+}
+header>div.headerBottom>div.bBottom>nav{
+    width: inherit;
+    height: inherit;
+}
+header>div.headerBottom>div.bBottom>nav>ul{
+    width: inherit;
+    height: inherit;
+    list-style: none;
+    padding-right: 10px;
+    position: relative;
+}
+header>div.headerBottom>div.bBottom>nav>ul>li{
+    display: inline-block;
+    width: auto;
+    height: inherit;
+}
+header>div.headerBottom>div.bBottom>nav>ul>li>a{
+    display: block;
+    width: auto;
+    padding: 0 10px;
+    height: inherit;
+    line-height: 40px;
+    text-decoration:none ;
+    font-family: text;
+    font-size: 13px;
+    transition: 300ms;
+    color: black;
+}
+header>div.headerBottom>div.bBottom>nav>ul>li>a>i{
+    margin-left: 5px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+li.location{
+    position: absolute !important;
+    left: 10px !important;
+}
+li.location label.shahr{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+input[id="shahr"]{
+    display: none;
+}
+div.shahr{
+    all: unset;
+    direction: rtl;
+    width: 450px;
+    height: 500px;
+    position: fixed;
+    background-color: white;
+    left: calc(50% - 450px / 2);
+    top: calc(50% - 500px / 2);
+    z-index: 40;
+    display: none;
+    border-radius: 10px;
+    cursor: auto !important;
+    color: black;
+    overflow: hidden;
+    border: 1px solid gray;
+
+}
+div.shahr0{
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 60px;
+    padding: 0 20px 0 20px;
+    border-bottom: 1px solid gray;
+}
+div.shahr0>label>i{
+    font-size: 25px;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    cursor: pointer;
+}
+div.shahr0>label>i:hover{
+    color: red;
+}
+div.shahr1{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    direction: ltr;
+    padding: 10px;
+}
+input[id="shahr"]:checked ~ div.shahr{
+    display: block;
+}
+input[id="cloce"]:checked ~ div.shahr{
+    display: none;
+}
+input[id="cloce"]{
+    display: none;
+}
+div.gps{
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    color: steelblue;
+    cursor: pointer;
+}
+div.gps:hover{
+    color: red;
+}
+div.gps>i{
+    font-size: 22px;
+    line-height: 40px;
+    vertical-align: top;
+    margin: 0 10px 0 10px;
+}
+div.city{
+    height: 60px;
+    padding-right: 20px;
+    line-height: 60px;
+    font-size: 18px;
+    color: black;
+}
+.active{
+    font-weight: bold;
+    font-size: 14px !important;
+}
+header>div.headerBottom>div.bBottom>nav>ul>li>a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+li.submenu{
+    position: relative;
+}
+div.submenu{
+    width: 90vw;
+    height: 70vh;
+    position: absolute;
+    z-index: 5;
+    border-right:1px solid black ;
+    border-left:1px solid black ;
+    border-bottom:1px solid black ;
+    border-top:1px solid black ;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    display: none;
+    font-family: text;
+}
+li.submenu:hover>div.submenu{
+    display: block;
+}
+div.submenu1{
+    width: 18%;
+    height: 100%;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+    direction: ltr;
+}
+div.shift{
+    direction: rtl;
+    width: 100%;
+    height: 100%;
+}
+div.submenu1>div.shift>div:nth-of-type(1){
+    margin-top: 5px;
+}
+div.fehrest{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+}
+div.fehrest>a{
+    display: block;
+    width: inherit;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    transition: 300ms;
+    font-size: 14px;
+}
+div.fehrest>a:hover{
+    background-color: black;
+    color: white;
+}
+div.fehrest i{
+    margin-right: 10px !important;
+    margin-left: 5px !important;
+    font-size: 18px !important;
+    width: 25px;
+    vertical-align: middle;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: grey;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+div.submenu2{
+    width: 82%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift1{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu2>div.shift1>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu2>div.shift1>div.head{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu2>div.shift1>div.head>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu2>div.shift1>div.head>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(1):hover div.submenu2{
+    display: block;
+    text-align: right;
+}
+a.brand{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 0 !important;
+}
+a.brand:hover{
+    color: red;
+}
+a.brand>i{
+    margin: 0 !important;
+    font-size: 16px !important;
+}
+a.branding{
+    display: block;
+    width: 100%;
+    height: 20px !important;
+    line-height: 20px;
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 3px 15px 0;
+    padding: 0;
+}
+a.branding:hover{
+    color: red;
+}
+div.submenu10{
+    width: 82%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+    background-color: white;
+}
+div.shift2{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu10>div.shift2>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu10>div.shift2>div.head10{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu10>div.shift2>div.head10>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu10>div.shift2>div.head10>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(2):hover div.submenu10{
+    display: block;
+    text-align: right;
+}
+div.submenu1>div.shift>div:nth-of-type(3):hover div.submenu11{
+    display: block;
+    text-align: right;
+}
+div.submenu11{
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift3{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu11>div.shift3>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu11>div.shift3>div.head3{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu11>div.shift3>div.head3>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu11>div.shift3>div.head3>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(4):hover div.submenu4{
+    display: block;
+    text-align: right;
+}
+div.submenu4{
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift4{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu4>div.shift4>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu4>div.shift4>div.head4{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu4>div.shift4>div.head4>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu4>div.shift4>div.head4>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(5):hover div.submenu5{
+    display: block;
+    text-align: right;
+}
+div.submenu5{
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift5{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu5>div.shift5>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu5>div.shift5>div.head5{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu5>div.shift5>div.head5>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu5>div.shift5>div.head5>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(6):hover div.submenu6{
+    display: block;
+    text-align: right;
+}
+div.submenu6{
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift6{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu6>div.shift6>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu6>div.shift6>div.head6{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu6>div.shift6>div.head6>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu6>div.shift6>div.head6>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(7):hover div.submenu7{
+    display: block;
+    text-align: right;
+}
+div.submenu7{
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift7{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu7>div.shift7>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu7>div.shift7>div.head7{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu7>div.shift7>div.head7>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu7>div.shift7>div.head7>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(8):hover div.submenu8{
+    display: block;
+    text-align: right;
+}
+div.submenu8{
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift8{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu8>div.shift8>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu8>div.shift8>div.head8{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu8>div.shift8>div.head8>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu8>div.shift8>div.head8>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(9):hover div.submenu9{
+    display: block;
+    text-align: right;
+}
+div.submenu9{
+    width: 82%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+}
+div.shift9{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu9>div.shift9>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu9>div.shift9>div.head9{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu9>div.shift9>div.head9>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu9>div.shift9>div.head9>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(10):hover div.submenu10{
+    display: block;
+    text-align: right;
+}
+div.submenu10{
+    width: 82%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+    background-color: white;
+}
+div.shift10{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu10>div.shift10>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu10>div.shift10>div.head10{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu10>div.shift10>div.head10>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu10>div.shift10>div.head10>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(11):hover div.submenu11{
+    display: block;
+    text-align: right;
+}
+div.submenu11{
+    width: 82%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+    background-color: white;
+}
+div.shift11{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu11>div.shift11>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu11>div.shift11>div.head11{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu11>div.shift11>div.head11>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu11>div.shift11>div.head11>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
+div.submenu1>div.shift>div:nth-of-type(12):hover div.submenu12{
+    display: block;
+    text-align: right;
+}
+div.submenu12{
+    width: 82%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    line-height: 70px;
+    transition: 300ms;
+    direction: ltr;
+    background-color: white;
+}
+div.shift12{
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+}
+div.submenu12>div.shift12>div.brand{
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: -17px;
+    vertical-align: top;
+    padding-right: 20px;
+}
+div.submenu12>div.shift12>div.head12{
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+div.submenu12>div.shift12>div.head12>a{
+    text-decoration: none;
+    color: steelblue;
+    font-size: 14px;
+
+}
+div.submenu12>div.shift12>div.head12>a>i{
+    font-size: 16px !important;
+    margin: 0 !important;
+}
